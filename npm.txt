@@ -1,0 +1,35 @@
+What is npm
+npm was created so developers can share javascript code that they have written.
+We can grab pieces of code, build on top of it and create our product.
+
+    How npm works
+This is a website where we can search for packages.
+The packages are located in the npm registry
+The registry keep track of files that have been submitted
+These files are called packages or modules
+These files contains two things, a javascript file and a package.json file
+package.json file: This is a meta file that describes this package.
+packages: are js files that people have written that do one thing really well
+
+    Benefits of using npm
+1)You get expertise from others
+
+    Disadvantages of npm
+1)Not all packages are good code.
+2)It makes your project size bigger.
+
+    yarn
+This is also a tool used to grab things from the registry.
+This is very similar to npm.
+
+There are 3 types of packages you can download from npm
+1)The ones you can use on the front end(jquery)
+2)The one that gives you new commands you can use on the command line
+3)The ones you can use in the backend(nodejs)      
+
+    Why are we learning this
+3 must do things when starting a project
+1)we have html, css, and javascript file
+2)must be on github
+3)you manage dependencies: packages that other people have written. with Mtn
+
