@@ -1,4 +1,4 @@
-What is npm
+What is npm(node package manager)
 npm was created so developers can share javascript code that they have written.
 We can grab pieces of code, build on top of it and create our product.
 
@@ -31,5 +31,44 @@ There are 3 types of packages you can download from npm
 3 must do things when starting a project
 1)we have html, css, and javascript file
 2)must be on github
-3)you manage dependencies: packages that other people have written. with Mtn
+3)you manage dependencies: packages that other people have written. with npm package.json file
+
+    How to set up npm on our computer before using it
+1)Download node and you atomatically get npm
+    What is node
+node helps us to write javascript outside our browser
+npm -v : checks the version of npm you have.
+node -v : checks the version of node you have.
+2)When you are having permission errors when you input a command, 
+sudo npm install. The sudo means you are inputting the command as an admin of the computer.
+    How to start using npm
+1) npm init
+This command creates a package.json file in your directory
+    What is a json 
+A json looks very simiilar to a javascript object 
+A JSON file is a text-based file that stores structured data using the JavaScript Object Notation (JSON) format.
+    Now that we have a package.json file
+we can grab whatever package we want
+package 1) live server: This detect changes in our code and automatically update them without having to refresh the browser.
+package 2) lodash
+package 3) react etc
+    npm allows us to install things in two ways
+1)globally: if you install globally, you can use it anywhere in your computer eg liveserver
+2)locally : if you intall locally, you can only use it in the foldler installed.
+    To install live server globally
+npm install -g live-server
+This will install live server inside our computer not in the folder.
+after installation, type: live-server
+
+    To install loadash locally
+npm i --save lodash
+
+    package.json file
+This serves as a great documentation of what pakages your projects depends on.
+
+dev dependencies: These are packages that are only needed for developement and testing.
+
+npm allows you to do commands from package.json file
+
+unable to create the bundle.js file while using loadash
 

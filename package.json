@@ -1,0 +1,22 @@
+{
+  "name": "zerotomastry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify app.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steverado9/zeroToMastery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steverado9/zeroToMastery/issues"
+  },
+  "homepage": "https://github.com/steverado9/zeroToMastery#readme",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
